@@ -423,11 +423,9 @@ E(g4) # The edges of the object
 V(g4) # The vertices of the object
 
 
-# You cannot manipulate the network matrix directly:
+# You can examine the network matrix directly:
 g4[]
-g4[1,]
-g4[3,3] <- 10
-g4[5,7] <- 10
+g4[1,] 
 
 # Add attributes to the network, vertices, or edges:
 V(g4)$name # automatically generated when we created the network.
